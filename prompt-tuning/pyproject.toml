@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "prompt-tuning"
+version = "0.1.0"
+description = ""
+authors = ["FrancoD <franco.demarco3400@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+peft = "^0.7.1"
+transformers = "^4.37.0"
+datasets = "^2.16.1"
+evaluate = "^0.4.1"
+jupyterlab = "^4.0.11"
+tqdm = "^4.66.1"
+ipywidgets = "^8.1.1"
+scipy = "^1.12.0"
+scikit-learn = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
